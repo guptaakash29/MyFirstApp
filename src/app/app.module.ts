@@ -12,6 +12,7 @@ import { ShoppingEditComponent } from "./shopping-list/shopping-edit/shopping-ed
 import { RecipeDetailComponent } from "./recipes/recipe-detail/recipe-detail.component";
 import { ServersComponent } from "./servers/servers.component";
 import { ServerComponent } from "./server/server.component";
+import { DropdownDirective } from "./shared/dropdown.directive";
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { ServerComponent } from "./server/server.component";
     RecipeDetailComponent,
     ServersComponent,
     ServerComponent,
+    DropdownDirective,
   ],
   imports: [BrowserModule, FormsModule],
   providers: [],
